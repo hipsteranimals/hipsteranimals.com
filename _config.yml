@@ -1,6 +1,6 @@
 # Directories
-source: ../.
-destination: ../_site
+source: .
+destination: _site
 layouts_dir: _theme/_layouts
 
 # Site title and description
