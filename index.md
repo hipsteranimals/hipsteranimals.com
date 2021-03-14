@@ -10,7 +10,7 @@ banners:
       title: Hipster Dogs.
       link:
         address: https://opensea.io/collection/hipsterdogs
-        title: Buy Now
+        title: Join Now!
 ---
 
 We're building a CryptoArt Community around HipsterAnimals.
