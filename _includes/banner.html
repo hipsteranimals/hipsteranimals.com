@@ -1,0 +1,27 @@
+{% if include.bgcolor %}
+{% assign style_overlay = 'style="background-color: #' | append: include.bgcolor | append: ';"' %}
+{% elsif include.bgimage %}
+{% assign style_overlay = 'style="background-image: url(img/' | append: include.bgimage | append: ');"' %}
+{% assign style_banner = 'style="background-color:rgba(255,255,255,0.3);"' %}
+{% endif %}
+<div class="overlay" {{style_overlay}}>
+    <div class="banner row px-5 mx-0" {{style_banner}}>
+        <div class="col-lg-4">
+            <div style="height: 400px;" class="position-relative">
+                <div class="position-absolute top-50 start-0 translate-middle-y">
+                    <h1>{{ include.title }}</h1>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-8">
+            <div style="height: 400px;" class="position-relative">
+                <div class="position-absolute top-50 start-50 translate-middle-y">
+                    {% if include.link %}
+                    <a href="{{include.link.address}}"
+                        class="btn btn-dark btn-lg float-end shadow-lg rounded">{{include.link.title}}</a>
+                    {% endif %}
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

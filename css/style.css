@@ -1,0 +1,34 @@
+body {
+    font-family: 'Bungee Hairline', sans-serif;
+    padding-bottom: 54px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-family: 'Bungee Shade', cursive;
+}
+
+a.logo img {
+    width: 100px;
+    height: 115px;
+    margin-top: -30px;
+}
+
+a.logo h1 {
+    font-size: 245%;
+}
+
+div.banner h1 {
+    background-color: white;
+    display: inline;
+}
+
+footer {
+    position: fixed;
+    height: 54px;
+    bottom: 0;
+    width: 100%;
+}
