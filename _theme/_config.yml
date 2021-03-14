@@ -1,0 +1,42 @@
+# Directories
+source: ../.
+destination: ../_site
+layouts_dir: _theme/_layouts
+
+# Site title and description
+title:              hipsteranimals
+description:        hipsteranimals official website
+lang:               en
+
+# Site subpath, e.g. /blog
+baseurl:            ""
+
+# Permalink URLs structure, for permalink style options see: https://jekyllrb.com/docs/permalinks/
+permalink:          /:title.html
+
+# Site base hostname & protocol, e.g. http://example.com
+url:                "https://hipsteranimals.github.io"
+
+# Build settings
+markdown:           kramdown
+highlighter:        rouge
+
+plugins:
+  - jekyll-feed
+exclude:
+  - '**/Gemfile'
+  - '**/Gemfile.lock'
+  - '**/node_modules'
+  - '**/package.json'
+
+collections:
+  theme:
+    output: true
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "default"
