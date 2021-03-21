@@ -34,7 +34,7 @@ scenes where you most probably think we are either so smart or fucking stupid
 while you are reading. And if you really wonder, have a look at the
 "[HA's Shitboard Logs][] ".
 
-## Why should you buy an Hipster Animal?
+## Why should you buy a Hipster Animal?
 
 So, if you are still looking for an answer why you should buy an item from
 Hipster Animals gang shop, I suggest you to go and ask the guys "[Sofia][]"
