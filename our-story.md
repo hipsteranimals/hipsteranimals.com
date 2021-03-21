@@ -13,16 +13,16 @@ sticky feeling in our stomach is the hunger of learning and the passion of
 creating (I mean, apart from becoming rich). Honestly, when we kicked off this
 initiative, it had been a couple of weeks since we had learned what NFT really
 is. (Hope you don't ask for a description of it though. We still feel like
-granpas who are trying to understand the internet.)
+grandpas who are trying to understand the internet.)
 
 ## What do we do?
 
-While checking our NFTs, be careful that there is not artifical intelligence
+While checking our NFTs, be careful that there is not artificial intelligence
 behind, we are still not that cool. (By the way, are there still people who are
-impressed by the word "Artifical Intelligence"? Really?) So, when you aim to
+impressed by the word "Artificial Intelligence"? Really?) So, when you aim to
 collect any item from where the hell they are (which is [here][HipsterDogs]),
 always keep in mind that there are plenty of manual artwork, or just work,
-behind. They are more like handmade rugs in the cyrpto world.
+behind. They are more like handmade rugs in the crypto-world.
 
 ## How will this evolve?
 
@@ -43,7 +43,7 @@ animals in the first days, and we still don't know why they did it.
 
 Or just do not overthink, go get the shit man.
 
-Cyryptoly yours,
+Cryptoly yours,
 
 Hipster Animals
 

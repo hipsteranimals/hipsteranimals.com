@@ -41,7 +41,7 @@ defaults:
       twitter: "https://twitter.com/punksykick"
       footnote: "cry me a hipster"
       menu:
-        - title: "our story"
+        - title: "Our Story"
           name: "our-story"
-        - title: "about"
+        - title: "About"
           name: "about"
