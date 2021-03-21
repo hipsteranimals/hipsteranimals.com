@@ -16,7 +16,9 @@
                     <h1 class="ms-2 d-none d-lg-block"><strong>hipster animals</strong></h1>
                 </a>
                 <ul class="nav navbar-nav ms-auto w-100 justify-content-end">
-                    <li class="nav-item"><a class="nav-link" href="/about.html"><strong>about</strong></a></li>
+                    {% for item in page.menu %}
+                    <li class="nav-item"><a class="nav-link" href="/{{item.name}}"><strong>{{item.title}}</strong></a></li>
+                    {% endfor %}
                     <li class="nav-item"><a class="nav-link" href="https://twitter.com/punksykick"><i
                                 class="fa fa-twitter"></i></a></li>
                 </ul>
@@ -42,7 +44,9 @@
                     <a href="https://opensea.io/collection/hipsterdogs" class="text-light">get a hipster animal.</a>
                 </span>
                 <ul class="nav navbar-nav ms-auto w-100 justify-content-end">
-                    <li class="nav-item"><a class="nav-link text-light" href="/about.html"><strong>about</strong></a>
+                    {% for item in page.menu %}
+                    <li class="nav-item"><a class="nav-link text-light" href="/{{item.name}}"><strong>{{item.title}}</strong></a>
+                    {% endfor %}
                     </li>
                     <li class="nav-item"><a class="nav-link text-light" href="https://twitter.com/punksykick"><i
                                 class="fa fa-twitter"></i></a>

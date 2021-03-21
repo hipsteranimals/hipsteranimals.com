@@ -13,10 +13,10 @@ lang:               en
 baseurl:            ""
 
 # Permalink URLs structure, for permalink style options see: https://jekyllrb.com/docs/permalinks/
-permalink:          /:title.html
+permalink:          /:title
 
 # Site base hostname & protocol, e.g. http://example.com
-url:                "https://hipsteranimals.github.io"
+url:                "http://hipsteranimals.com"
 
 # Build settings
 markdown:           kramdown
@@ -36,8 +36,10 @@ collections:
 
 # Defaults
 defaults:
-  - scope:
-      path: ""
-      type: "pages"
-    values:
+  - values:
       layout: "default"
+      menu:
+        - title: "our story"
+          name: "our-story"
+        - title: "about"
+          name: "about"
