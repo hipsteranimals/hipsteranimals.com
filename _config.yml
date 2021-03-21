@@ -38,6 +38,8 @@ collections:
 defaults:
   - values:
       layout: "default"
+      twitter: "https://twitter.com/punksykick"
+      footnote: "cry me a hipster"
       menu:
         - title: "our story"
           name: "our-story"

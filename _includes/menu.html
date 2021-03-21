@@ -1,0 +1,11 @@
+{% if include.light %}
+{% assign class = ' text-light' %}
+{% endif %}
+<ul class="nav navbar-nav ms-auto w-100 justify-content-end">
+    {% for item in page.menu %}
+    <li class="nav-item"><a class="nav-link{{class}}" href="/{{item.name}}"><strong>{{item.title}}</strong></a>
+    </li>
+    {% endfor %}
+    <li class="nav-item"><a class="nav-link{{class}}" href="{{page.twitter}}" target="_blank"><i class="fa fa-twitter"></i></a>
+    </li>
+</ul>

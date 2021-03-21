@@ -1,14 +1,19 @@
 body {
-    font-family: 'Bungee Hairline', sans-serif;
+    font-family: 'Rajdhani', sans-serif;
     padding-bottom: 54px;
 }
 
 h1,
 h2,
-h3,
-h4,
-h5 {
+h3 {
     font-family: 'Bungee Shade', cursive;
+}
+
+h4,
+h5,
+li.nav-item,
+a.btn {
+    font-family: 'Bungee Hairline', sans-serif;
 }
 
 a.logo img {
@@ -29,7 +34,6 @@ div.banner h5 {
     background-color: white;
     display: inline;
 }
-
 
 .banner-title, .banner-link {
     height: 400px;

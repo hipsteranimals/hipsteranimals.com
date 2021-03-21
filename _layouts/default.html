@@ -15,21 +15,15 @@
                     <img src="img/logo.png" class="h-25 w-25 h-lg-100 w-lg-100" />
                     <h1 class="ms-2 d-none d-lg-block"><strong>hipster animals</strong></h1>
                 </a>
-                <ul class="nav navbar-nav ms-auto w-100 justify-content-end">
-                    {% for item in page.menu %}
-                    <li class="nav-item"><a class="nav-link" href="/{{item.name}}"><strong>{{item.title}}</strong></a></li>
-                    {% endfor %}
-                    <li class="nav-item"><a class="nav-link" href="https://twitter.com/punksykick"><i
-                                class="fa fa-twitter"></i></a></li>
-                </ul>
+                {% include menu.html %}
             </div>
         </nav>
     </header>
     <main class="flex-shrink-0">
-        <div class="container-fluid px-0">
-            {% for banner in page.banners %}
-            {% include banner.html bgcolor=banner.bgcolor bgimage=banner.bgimage title=banner.title link=banner.link %}
-            {% endfor %}
+        {% for banner in page.banners %}
+        {% include banner.html bgcolor=banner.bgcolor bgimage=banner.bgimage title=banner.title link=banner.link %}
+        {% endfor %}
+        <div class="container gap-">
             <div class="row p-5 mx-0">
                 <div class="col-12">
                     {{ content }}
@@ -37,29 +31,18 @@
             </div>
         </div>
     </main>
-    <footer class=" bg-dark">
+    <footer class="bg-dark">
         <nav class="navbar navbar-light navbar-expand-md bg-faded justify-content-center">
             <div class="container">
-                <span href="/" class="navbar-brand d-flex w-50 me-auto">
-                    <a href="https://opensea.io/collection/hipsterdogs" class="text-light">get a hipster animal.</a>
-                </span>
-                <ul class="nav navbar-nav ms-auto w-100 justify-content-end">
-                    {% for item in page.menu %}
-                    <li class="nav-item"><a class="nav-link text-light" href="/{{item.name}}"><strong>{{item.title}}</strong></a>
-                    {% endfor %}
-                    </li>
-                    <li class="nav-item"><a class="nav-link text-light" href="https://twitter.com/punksykick"><i
-                                class="fa fa-twitter"></i></a>
-                    </li>
-                </ul>
+                <h4 href="/" class="navbar-brand d-flex w-50 me-auto text-light">
+                    {{page.footnote}}
+                </h4>
+                {% include menu.html light=true %}
             </div>
         </nav>
     </footer>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
-        crossorigin="anonymous"></script>
-    <script src="https://use.fontawesome.com/d9e89e39c9.js"></script>
+    {% include scripts.html %}
 </body>
 
 </html>
