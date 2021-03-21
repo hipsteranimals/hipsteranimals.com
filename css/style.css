@@ -21,9 +21,22 @@ a.logo h1 {
     font-size: 245%;
 }
 
-div.banner h1 {
+div.banner h1,
+div.banner h2,
+div.banner h3,
+div.banner h4,
+div.banner h5 {
     background-color: white;
     display: inline;
+}
+
+
+.banner-title, .banner-link {
+    height: 400px;
+}
+
+.bg-image-overlay {
+    background-color:rgba(255,255,255,0.3);
 }
 
 footer {

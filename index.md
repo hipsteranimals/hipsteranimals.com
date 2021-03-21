@@ -2,7 +2,7 @@
 title: hipster animals
 banners: 
     - bgcolor: 00FF41
-      title: Become part of HipsterAnimals CryptoArt community.
+      title: Become part of Hipster Animals CryptoArt community.
       link:
         address: /about.html
         title: More Info...
@@ -13,4 +13,4 @@ banners:
         title: Join Now!
 ---
 
-We're building a CryptoArt Community around HipsterAnimals.
+We're building a Crypto Art Community around Hipster Animals.
