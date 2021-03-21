@@ -14,4 +14,4 @@ for sale on OpenSea marketplace.
 
 Buy a [Hipster Dog][]
 
-[Hipster Dogs]: https://opensea.io/collection/hipsterdogs
+[Hipster Dog]: https://opensea.io/collection/hipsterdogs
