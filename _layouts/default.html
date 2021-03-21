@@ -23,13 +23,16 @@
         {% for banner in page.banners %}
         {% include banner.html bgColor=banner.bgColor bgImage=banner.bgImage title=banner.title link=banner.link %}
         {% endfor %}
-        <div class="container gap-">
+        {% assign content = content | strip %}
+        {% unless content == blank %}
+        <div class="container">
             <div class="row p-5 mx-0">
                 <div class="col-12">
                     {{ content }}
                 </div>
             </div>
         </div>
+        {% endunless %}
     </main>
     <footer class="bg-dark">
         <nav class="navbar navbar-light navbar-expand-md bg-faded justify-content-center">
