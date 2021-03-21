@@ -10,4 +10,10 @@ pop-art animal portraits produced by an algorithm.
 
 Every item is unique, and each one of them can be officially owned by a single
 person on the Ethereum blockchain. You can buy, bid, and offer Hipster Animals
-for sale on OpenSea marketplace.
+for sale on OpenSea marketplace. 
+
+[Hipster Dogs][]
+
+
+
+[Hipster Dogs]: https://opensea.io/collection/hipsterdogs
