@@ -5,12 +5,12 @@ banners:
       title: Become part of Hipster Animals CryptoArt community.
       link:
         address: /about
-        title: More Info...
+        title: More...
     - bgimage: hipsterdogs-banner.png
       title: Hipster Dogs.
       link:
-        address: https://opensea.io/collection/hipsterdogs
-        title: Join Now!
+        address: /collections/hipster-dogs
+        title: More...
 ---
 
 We're building a Crypto Art Community around Hipster Animals.
