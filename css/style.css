@@ -1,18 +1,15 @@
 body {
-    font-family: 'Rajdhani', sans-serif;
+    font-family: 'Big Shoulders Inline Text', cursive;
+    font-weight: 600;
+    font-size: 18pt;
     padding-bottom: 54px;
 }
 
-h1,
-h2,
-h3 {
+h1, h2, h3 {
     font-family: 'Bungee Shade', cursive;
 }
 
-h4,
-h5,
-li.nav-item,
-a.btn {
+h4, h5, li.nav-item, a.btn {
     font-family: 'Bungee Hairline', sans-serif;
 }
 
@@ -26,11 +23,7 @@ a.logo h1 {
     font-size: 245%;
 }
 
-div.banner h1,
-div.banner h2,
-div.banner h3,
-div.banner h4,
-div.banner h5 {
+div.banner h1, div.banner h2, div.banner h3, div.banner h4, div.banner h5 {
     background-color: white;
     display: inline;
 }
@@ -40,7 +33,7 @@ div.banner h5 {
 }
 
 .bg-image-overlay {
-    background-color:rgba(255,255,255,0.3);
+    background-color: rgba(255, 255, 255, 0.3);
 }
 
 footer {
