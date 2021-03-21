@@ -1,12 +1,12 @@
 ---
 title: Home
 banners: 
-    - bgcolor: 00FF41
-      title: Become a collector of Hipster Animals crypto art. 
+    - bgColor: 00FF41
+      title: Become a collector of Hipster Animals crypto art.
       link:
         address: /about
         title: More...
-    - bgimage: hipsterdogs-banner.png
+    - bgImage: hipster-dogs-banner.png
       title: Hipster Dogs.
       link:
         address: /collections/hipster-dogs

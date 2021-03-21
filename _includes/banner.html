@@ -1,7 +1,7 @@
-{% if include.bgcolor %}
-{% assign style_overlay = 'style="background-color: #' | append: include.bgcolor | append: ';"' %}
-{% elsif include.bgimage %}
-{% assign style_overlay = 'style="background-image: url(/img/' | append: include.bgimage | append: ');"' %}
+{% if include.bgColor %}
+{% assign style_overlay = 'style="background-color: #' | append: include.bgColor | append: ';"' %}
+{% elsif include.bgImage %}
+{% assign style_overlay = 'style="background-image: url(/img/' | append: include.bgImage | append: ');"' %}
 {% assign class_banner = 'bg-image-overlay' %}
 {% endif %}
 <div class="container-fluid px-0">
